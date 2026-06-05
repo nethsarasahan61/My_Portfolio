@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 30px 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    color: gray;
+    cursor: default;
+    font-size: 3em;
+}
+.logo span{
+    color: black;
+}
+.navigation a{
+    font-size: 1.3em;
+    color: gray;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navigation a:hover{
+    color: black;
+}
+.btn-talk{
+    font-size: 1.3em;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: black;
+    padding: 12px 35px;
+    border-radius: 10px;
+    border: 2px solid;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-talk:hover{
+    color: black;
+    background-color: white;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+.img{
+    position: fixed;
+    width: 85%;
+    height: 135%;
+    margin-left: 8.49%;
+    margin-top: -16.51%;
+}
+.content{
+    max-width: 600px;
+    color: black;
+}
+.content h2{
+    font-size: 3em;
+    font-weight: 1500;
+}
+.content h4{
+    font-size: 1.5em;
+}
+.content p{
+    padding: 10px 0px 40px 0px;
+}
+.btn-group{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 12px 35px;
+    transition: .3s;
+}
+.btn-group:nth-child(2){
+    color: black;
+    background-color: white;
+}
