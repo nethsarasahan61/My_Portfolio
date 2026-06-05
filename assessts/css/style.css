@@ -9,11 +9,12 @@ header{
     top:0;
     left: 0;
     width: 100%;
-    padding: 30px 85px;
+    padding: 10px 85px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color: rgb(36, 36, 36);
 }
 .logo{
     color: gray;
@@ -29,10 +30,14 @@ header{
     text-decoration: none;
     margin-right: 40px;
     font-weight: 500;
-    transition: .3s;
+    transition: .4s;
 }
 .navigation a:hover{
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid;
     color: black;
+    padding: 10px 25px;
 }
 .btn-talk{
     font-size: 1.3em;
@@ -57,11 +62,11 @@ header{
     align-items: center;
     padding: 30px 100px;
 }
-.img{
-    position: fixed;
+.img1{
+    position: absolute;
     width: 85%;
     height: 135%;
-    margin-left: 8.49%;
+    margin-left: 8.45%;
     margin-top: -16.51%;
 }
 .content{
@@ -90,4 +95,10 @@ header{
 .btn-group:nth-child(2){
     color: black;
     background-color: white;
+}
+.container{
+    margin-top: 45px;
+}
+.foot{
+    backdrop-filter: blur(10px);
 }
