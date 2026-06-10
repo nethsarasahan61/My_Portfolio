@@ -9,12 +9,13 @@ header{
     top:0;
     left: 0;
     width: 100%;
-    padding: 10px 85px;
+    padding: 1px 65px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
     background-color: rgb(36, 36, 36);
+    
 }
 .logo{
     color: gray;
@@ -44,7 +45,7 @@ header{
     color: aliceblue;
     text-decoration: none;
     background-color: black;
-    padding: 12px 35px;
+    padding: 5px 35px;
     border-radius: 10px;
     border: 2px solid;
     font-weight: 500;
@@ -62,12 +63,18 @@ header{
     align-items: center;
     padding: 30px 100px;
 }
-.img1{
+.image-container{
     position: absolute;
-    width: 85%;
-    height: 135%;
-    margin-left: 8.45%;
-    margin-top: -16.51%;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.img1{
+    width: 80%;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 140px;
 }
 .content{
     max-width: 600px;
@@ -99,6 +106,7 @@ header{
 .container{
     margin-top: 45px;
 }
-.foot{
-    backdrop-filter: blur(10px);
+.icons{    
+    justify-items: center;
+    align-items: center;
 }
