@@ -17,6 +17,9 @@ header{
     background-color: rgb(36, 36, 36);
     
 }
+main{
+    margin-top: 45px;
+}
 .logo{
     color: gray;
     cursor: default;
@@ -61,6 +64,7 @@ header{
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 30px 100px;
 }
 .image-container{
@@ -76,7 +80,7 @@ header{
     margin-top: 80px;
     margin-left: 140px;
 }
-.content{
+.content{    
     max-width: 600px;
     color: black;
 }
